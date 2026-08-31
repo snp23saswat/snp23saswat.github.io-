@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saswat Nemalipuri</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
+
+  :root {
+    --ink: #10201d;
+    --paper: #f4f1e9;
+    --amber: #c8792e;
+    --sage: #5c7a68;
+    --line: #d8d2c2;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  a { color: var(--amber); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover, a:focus-visible { border-bottom-color: var(--amber); }
+  a:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
+
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 6rem;
+  }
+
+  header h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(2.4rem, 7vw, 3.4rem);
+    line-height: 1.05;
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.01em;
+  }
+
+  header .role {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--sage);
+    margin: 0 0 1.6rem;
+  }
+
+  header p.lede {
+    max-width: 46ch;
+    margin: 0 0 1.8rem;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .contact-row span { color: var(--sage); }
+
+  section {
+    margin-top: 3.4rem;
+    padding-top: 3.4rem;
+    border-top: 1px solid var(--line);
+  }
+
+  section h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0 0 1.4rem;
+  }
+
+  .edu-inst { font-weight: 600; margin: 0; }
+  .edu-detail { color: var(--sage); margin: 0.15rem 0 0; font-size: 0.97rem; }
+  .edu-course { margin: 0.6rem 0 0; font-size: 0.95rem; }
+  .edu-course strong { font-weight: 600; }
+
+  .skills dt {
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .skills dt:first-child { margin-top: 0; }
+  .skills dd {
+    margin: 0.15rem 0 0;
+    color: #3a453f;
+  }
+
+  .project {
+    margin-bottom: 1.9rem;
+  }
+  .project:last-child { margin-bottom: 0; }
+
+  .project-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .project-head h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 1.12rem;
+    margin: 0;
+  }
+
+  .project-stack {
+    font-size: 0.88rem;
+    color: var(--sage);
+    font-style: italic;
+  }
+
+  .project ul {
+    margin: 0;
+    padding-left: 1.15rem;
+  }
+
+  .project li { margin-bottom: 0.3rem; }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.76rem;
+    color: var(--amber);
+    border: 1px solid var(--amber);
+    border-radius: 3px;
+    padding: 0.05rem 0.4rem;
+    margin-left: 0.1rem;
+  }
+
+  .certs ul, .why ul {
+    margin: 0;
+    padding-left: 1.15rem;
+  }
+  .certs li, .why li { margin-bottom: 0.5rem; }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.88rem;
+    color: var(--sage);
+  }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 3.5rem 1.25rem 4rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Saswat Nemalipuri</h1>
+    <p class="role">Data Science student &amp; builder</p>
+    <p class="lede">Studying Data Science at IIT Madras, building small full-stack and machine-learning projects, and applying to the MLH Fellowship to go deeper on production software.</p>
+    <div class="contact-row">
+      <span>Bengaluru, India</span>
+      <a href="mailto:saswatnemalipuri23snp@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/saswat-nemalipuri-71a1a22bb/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/snp23saswat" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </header>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p class="edu-inst">Indian Institute of Technology (IIT) Madras</p>
+    <p class="edu-detail">BS in Data Science — currently at Diploma level</p>
+    <p class="edu-course"><strong>Relevant coursework:</strong> Machine Learning Foundations (MLF), Machine Learning Techniques (MLT)</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Languages &amp; web</dt>
+      <dd>Python, HTML, CSS, JavaScript, React, Flask</dd>
+      <dt>Data &amp; ML libraries</dt>
+      <dd>NumPy, Pandas, Matplotlib, Seaborn</dd>
+      <dt>Databases</dt>
+      <dd>MySQL, PostgreSQL</dd>
+      <dt>Machine learning</dt>
+      <dd>Regression, classification, model evaluation</dd>
+      <dt>Tools</dt>
+      <dd>Git, GitHub</dd>
+      <dt>Game development</dt>
+      <dd>Godot Engine (GDScript, 3D/FPS templates)</dd>
+    </dl>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <div class="project-head">
+        <h3>Flask Web App</h3>
+        <span class="project-stack">Python, Flask</span>
+        <span class="badge">on GitHub by Sept 1, 2026</span>
+      </div>
+      <ul>
+        <li>Building a Flask-based web application to apply Python back-end development and server-side routing.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-head">
+        <h3>React Project</h3>
+        <span class="project-stack">React.js</span>
+      </div>
+      <ul>
+        <li>Front-end application built with React, practicing component-based architecture, state management, and modern JS tooling.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-head">
+        <h3>Financial</h3>
+        <span class="project-stack">JavaScript</span>
+      </div>
+      <ul>
+        <li>Browser-based tool for financial calculations and tracking, focused on DOM manipulation and interactive UI logic.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-head">
+        <h3>Web Development Coursework</h3>
+        <span class="project-stack">HTML, CSS</span>
+      </div>
+      <ul>
+        <li>First-term web development assignments and a standalone HTML project covering semantic markup, layout, and styling fundamentals.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-head">
+        <h3>Daydream — 3D FPS Game</h3>
+        <span class="project-stack">Godot Engine</span>
+      </div>
+      <ul>
+        <li>3D first-person shooter prototype ("Gunman vs Zombie") built during a game-development hackathon using a customized FPS template.</li>
+        <li>Worked with 3D assets, character controllers, and enemy AI to deliver a playable demo under hackathon time constraints.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certifications" class="certs">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Cisco — Networking Basics</li>
+      <li>Cisco — Introduction to Cybersecurity</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Bengaluru, India · <a href="mailto:saswatnemalipuri23snp@gmail.com">saswatnemalipuri23snp@gmail.com</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
