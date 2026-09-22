@@ -3,7 +3,7 @@
 Personal portfolio site for **Saswat Nemalipuri**, published via GitHub Pages.
 
 **Live site:** https://snp23saswat.github.io/snp23saswat.github.io-/
-*(or your custom Pages URL, if configured under repo Settings → Pages)*
+
 
 ## About
 
